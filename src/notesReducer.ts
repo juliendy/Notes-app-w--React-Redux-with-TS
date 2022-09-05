@@ -1,10 +1,10 @@
-// In redux, reducers are functions that calculate th e new value for the state.
+// In redux, reducers are functions that calculate the new value for the state.
 
 import { Action } from "./actions"
 
 // the type of our state
 export interface NotesState {
-    //notes here is an array of strings.
+    //defining notes here is an array of strings. thanks typescript.
     notes: string[];
 }
 
